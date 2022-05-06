@@ -8,6 +8,9 @@ const Pet = (props) => {
     </div>
   );
 };
+
+export default Pet;
+
 // const Pet = (props) => {
 //   return React.createElement("div", {}, [
 //     React.createElement("h1", {}, props.name),
@@ -15,5 +18,3 @@ const Pet = (props) => {
 //     React.createElement("h2", {}, props.breed),
 //   ]);
 // };
-
-export default Pet;
